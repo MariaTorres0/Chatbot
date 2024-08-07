@@ -1,0 +1,16 @@
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card-body .badge {
+  width: fit-content;
+  max-width: 75%;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  text-align: left; 
+}
