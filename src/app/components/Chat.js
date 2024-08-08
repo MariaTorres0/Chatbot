@@ -40,9 +40,9 @@ const Chatbot = () => {
                     {messages.map((msg, index) => (
                         <div key={index} className={`mb-2 ${msg.sender === 'user' ? 'text-end' : 'text-start'}`}>
                             <span
-                                className={`badge ${msg.sender === 'user' ? 'bg-primary' : 'bg-secondary'}`}
+                                className={`badge ${msg.sender === 'user' ? '' : ''}`}
                                 style={{ 
-                                    backgroundColor: msg.sender === 'user' ? '#007BFF' : '#6C757D', // Ajusta los colores aquí
+                                    backgroundColor: msg.sender === 'user' ? '#6F42C1' : '#6C757D', 
                                     color: '#FFFFFF',
                                     display: 'inline-block',
                                     wordBreak: 'break-word',
